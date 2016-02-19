@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-theme-antergos",
+	"id": "nodebb-theme-slate",
 	"library": "./lib/theme.js",
 	"hooks": [
 		{
@@ -32,6 +32,6 @@
 		"vendor": "static/vendor"
 	},
 	"scripts": [
-		"static/lib/antergos.js"
+		"static/lib/slate.js"
 	]
 }
