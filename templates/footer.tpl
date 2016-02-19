@@ -6,32 +6,16 @@
 		<div class="et-container clearfix">
 			<ul class="et-social-icons">
 
-				<li class="et-social-icon et-social-facebook">
-					<a href="//www.facebook.com/antergos" class="icon">
-						<span>Facebook</span>
-					</a>
-				</li>
 				<li class="et-social-icon et-social-twitter">
-					<a href="//www.twitter.com/antergos" class="icon">
+					<a href="//www.twitter.com/mchostco" class="icon">
 						<span>Twitter</span>
-					</a>
-				</li>
-				<li class="et-social-icon et-social-google-plus">
-					<a href="//plus.google.com/communities/116626481503903480477" class="icon">
-						<span>Google</span>
-					</a>
-				</li>
-				<li class="et-social-icon et-social-rss">
-					<a href="/recent.rss" class="icon">
-						<span>RSS</span>
 					</a>
 				</li>
 
 			</ul>
 			<p id="footer-info">Copyright &copy; 2016
-				<a href="https://antergos.com" title="Antergos">Antergos</a> | Forum powered by
-				<a href="http://www.nodebb.org" rel="nofollow">NodeBB.</a>
-				<a class="etdevs-signup" href="https://falgout.us/determination.php">Sign Up</a></p>
+				<a href="https://McHost.co" title="McHost">McHost</a>
+			</p>
 		</div>
 	</div>
 </footer>
