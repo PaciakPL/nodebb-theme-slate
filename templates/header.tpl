@@ -28,14 +28,14 @@
 	<script src="{config.relative_path}/nodebb.min.js?{config.cache-buster}"></script>
 	<!-- IMPORT partials/requirejs-config.tpl -->
 
-	<script src="/plugins/nodebb-theme-antergos/vendor/jquery.waypoints.min.js"></script>
-	<script src="/plugins/nodebb-theme-antergos/vendor/jquery.cookie.js"></script>
+	<script src="/plugins/nodebb-theme-slate/vendor/jquery.waypoints.min.js"></script>
+	<script src="/plugins/nodebb-theme-slate/vendor/jquery.cookie.js"></script>
 
 
 	<link rel="stylesheet" id="et-gf-raleway-css" href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900&amp;subset=latin" type="text/css" media="all">
 	<link rel="stylesheet" id="et-gf-lato-css" href="https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&amp;subset=latin" type="text/css" media="all">
 
-	<link rel="stylesheet" id="divi-style-css" href="/plugins/nodebb-theme-antergos/vendor/style.css" type="text/css" media="all">
+	<link rel="stylesheet" id="divi-style-css" href="/plugins/nodebb-theme-slate/vendor/style.css" type="text/css" media="all">
 
 	<style>
 		a {
