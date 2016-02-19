@@ -1,0 +1,629 @@
+@import "variables";
+@import "whiteplum";
+@import "keyframes";
+
+@import "categories";
+@import "category";
+@import "topic";
+
+body {
+  background: #FAFAFA;
+}
+
+.loading-bar {
+  width: 0%;
+  position: absolute;
+  left: 0px;
+  height: 2px;
+  background: @brand-primary;
+  z-index: 1;
+  -webkit-transition: width 0.2s ease-in;
+  -moz-transition: width 0.2s ease-in;
+  -o-transition: width 0.2s ease-in;
+  -ms-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+}
+
+.admin {
+  background: white;
+
+  .panel[data-widget] {
+    border-top: 0;
+    box-shadow: 0px 0px 1px #555;
+  }
+}
+
+.header {
+  #user_label {
+    > a {
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+    }
+  }
+
+  #notif-list, #chat-list {
+    li {
+      &.unread {
+        background-color: @brand-warning;
+      }
+    }
+  }
+}
+
+.chats-list {
+  li {
+    &.unread {
+      background-color: @brand-warning;
+    }
+  }
+}
+
+.header-topic-title {
+  padding-top: 5px;
+  span {
+    height: 25px;
+  }
+}
+
+.breadcrumb {
+  background-color: white;
+}
+
+.profile-image {
+  width: 52px;
+  height: 52px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+
+  &.small {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+.account {
+  .user-profile-picture {
+    border-radius: 50%;
+  }
+}
+
+.taskbar {
+  li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.composer {
+  .instructions {
+    line-height: 25px;
+
+  }
+}
+
+.postMenu, .upvote.btn-primary, .downvote.btn-primary {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: inline-block;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.facebook-share, .twitter-share, .google-share {
+  background: transparent;
+}
+
+.facebook-share .menu-icon {
+  background: #3b5998;
+}
+
+.twitter-share .menu-icon {
+  background: #2fc2ef;
+}
+
+.google-share .menu-icon {
+  background: #df5138;
+}
+
+.facebook-share .menu-icon, .twitter-share .menu-icon, .google-share .menu-icon {
+  color: white;
+  border-radius: 100%;
+}
+
+.fixed {
+  position: fixed;
+  right: 32px;
+}
+.post-preview-footer {
+	opacity: 0.8;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.forum-title {
+  display: none;
+}
+
+.header .forum-logo {
+  float: left;
+  max-height: 46px;
+  width: auto;
+}
+
+.container > .navbar-header {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.navbar .fa {
+  font-size: 18px;
+}
+
+.forum-logo, #header-menu, .navbar-nav > li > a {
+  transition: all 0.15s ease-in-out;
+}
+
+.ant-fixed-header .navbar-nav > li > a {
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.ant-fixed-header .container > .navbar-header {
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+.ant-fixed-header.header .forum-logo {
+  float: left;
+  max-height: 32px;
+  width: auto;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #2EA3F2;
+  background-color: inherit;
+}
+
+body {
+  background-image: url(https://elegantthemes.com/preview/Divi/wp-content/uploads/2014/05/geometic-bg-white-3.jpg) !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+}
+
+#wrap {
+  max-width: 100%;
+  background: #fafafa;
+  padding: 0px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ant-fixed-header, .navbar-fixed-bottom {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.navbar-inverse {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ant-fixed-header {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1) !important;
+}
+
+#content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.category-item .category-icon, .panel {
+  box-shadow: none;
+  border: 1px solid #d8d8d8;
+}
+
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #272930;
+  border-color: #ddd;
+  background-image: url('https://antergos.org/wp-content/uploads/2014/09/ascend-bg.jpg');
+  background-size: cover;
+}
+
+#top-header .et-container {
+  padding-top: 6px !important;
+}
+
+#et-info {
+  float: left;
+  padding-bottom: 5px;
+}
+
+#et-secondary-menu {
+  float: right;
+  padding-bottom: 6px;
+}
+
+.navbar-inverse {
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .5);
+  color: #ccc;
+  background-color: #272930;
+  border: none;
+  background-image: url(https://antergos.org/wp-content/uploads/2014/09/ascend-bg.jpg);
+  background-size: cover;
+  background-position-y: 29%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-lg-8 {
+    width: 73.5%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #wrap {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .navbar-fixed-top, .navbar-fixed-bottom {
+    max-width: 100%;
+  }
+}
+
+.row.categories {
+  padding: 5px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#search-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header #user_label > a {
+  padding-top: 27px;
+  padding-bottom: 24px;
+}
+
+.ant-fixed-header .navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ant-fixed-header #search-button {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ant-fixed-header.header #user_label > a {
+  padding-top: 12px;
+  padding-bottom: 9px;
+}
+
+#fw-header {
+  height: 275px;
+  background-image: url('https://antergos.org/geometic-bg-lightblue-3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.category-item .post-preview .post-preview-content {
+  max-height: 125px;
+}
+
+.category-icon .fade-out {
+  position: absolute;
+  top: 104px;
+}
+
+.fade-out {
+  padding-bottom: 30px !important;
+}
+
+p, body {
+  line-height: 1.4em;
+}
+
+#fw-header {
+  display: none;
+}
+
+.category-item .category-box .category-info {
+  background: #ffffff;
+}
+
+.parent-cat {
+  margin-bottom: 45px;
+}
+
+.subcategories.row .col-md-2 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.active-users {
+  display: none;
+}
+
+.subcategories {
+  width: 95%;
+  margin: 0 auto !important;
+}
+
+.subcategories .category-item .category-box .category-info h4 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.subcategories .category-info .description {
+  display: none;
+}
+
+.subcategories .category-item {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.subcategories .fade-out {
+  top: 71px;
+}
+
+.subcategories .category-item .post-preview .post-preview-content {
+  max-height: 100px;
+}
+
+.subcategories {
+  margin-bottom: 55px !important;
+}
+
+.subcategories .slick-dots {
+  bottom: -30px;
+}
+
+.subcategories .slick-dots li.slick-active button:before {
+  color: #32394B;
+  opacity: 0.95;
+}
+
+.subcategories .slick-dots li button:before {
+  opacity: 0.45;
+}
+
+.subcategories .slick-prev:before, .subcategories .slick-next:before {
+  color: #32394B;
+  opacity: 1;
+}
+
+.ant-fixed-header {
+  max-height: 50px;
+}
+
+#content {
+  padding-top: 50px;
+}
+
+.category-header-image-auto {
+  background-repeat: no-repeat;
+  background-position: 50% 50% !important;
+}
+
+.login .active-users {
+  display: none;
+}
+
+.topic .topic-profile-pic {
+  width: 79px;
+}
+
+.header .header-topic-title span {
+  color: #2EA3F2;
+}
+
+@media only screen and (min-width: 1280px) {
+  .row.categories > .col-lg-8 {
+    min-height: 3825px !important;
+  }
+
+  .container {
+    width: inherit;
+  }
+
+  .alert-window {
+    width: 451px;
+  }
+
+  .alert-window .alert img {
+    max-width: 41px;
+    margin-bottom: 53px;
+    margin-right: 10px;
+  }
+
+  .alert-window .alert-warning img {
+    max-width: 41px;
+    margin-bottom: 123px;
+    margin-right: 10px;
+  }
+
+  .alert-info {
+    border-color: #146CE0;
+    color: #146CE0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .alert-warning {
+    border-color: #f52334;
+    color: #f52334;
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #wrap {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  #content {
+padding-top: 100px;
+}
+
+  .ant-fixed-header, .navbar-fixed-bottom {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 760px) {
+  .container > .navbar-header, .container > .navbar-collapse {
+    padding-right: inherit;
+    margin-right: inherit;
+  }
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #eee;
+  background-color: #333;
+  border-radius: 0;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+.topic-text .img-responsive {
+  max-width: 50%;
+}
+
+.topic-text table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.topic-text table {
+  border: 1px solid #eee;
+  margin: 0 0 20px 0;
+  text-align: left;
+  max-width: 100%;
+}
+
+.topic-text table thead tr {
+  background: #F2F2F2;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.topic-text tr th, .topic-text thead th {
+  color: #555;
+  font-weight: bold;
+  padding: 9px 24px;
+}
+
+.topic-text tr td {
+  border-top: 1px solid #eee;
+  padding: 6px 24px;
+}
+
+.etban-topic {
+  display: none;
+  text-align: center;
+}
+
+[widget-area=sidebar] .affix-top.panel:nth-last-child(2),
+[widget-area=sidebar] .affix-top.panel:last-child {
+  width: 380px;
+  transition: all 0.5s linear;
+}
+
+[widget-area=sidebar] .affix.panel:nth-last-child(2) {
+  width: 380px;
+  position: fixed;
+  top: 75px;
+}
+
+[widget-area=sidebar] .affix.panel:last-child {
+  width: 380px;
+  position: fixed;
+}
+#top-header {
+  width: 100%;
+  max-width: 100%;
+  height: 25px;
+  position: fixed;
+  top: 0;
+  transition: all 0.2s linear;
+  background: #fff;
+  z-index: 9997 !important;
+
+}
+#top-header.ant-fixed-header {
+ display: block;
+  transition: all 0.2s linear;
+}
+#header-menu {
+  top: 25px;
+  margin: 0 auto;
+  transition: all 0.2s linear;
+  z-index: 9998 !important;
+}
+#header-menu.ant-fixed-header {
+  top: 0;
+  transition: all 0.2s linear;
+}
+#top-header .et-container, #footer-bottom .et-container {
+  width: 100%;
+  max-width: 100%;
+}
+#top-header .et-container {
+  display: none;
+}
+#top-header.ant-fixed-header .et-container {
+  display: block;
+}
+#et-info, #et-secondary-menu {
+  padding-bottom: 6px !important;
+}
+
+.register .form-group .col-lg-8 {
+  float: none;
+  margin: 0 auto;
+}
+
+.register .form-group label {
+  position: absolute;
+  left: -1000px;
+}
+
+#spam-be-gone-recaptcha-target {
+width: 304px;
+margin: 0 auto;
+margin-top: 25px;
+}
+
+#footer-info a.etdevs-signup {
+  color: #171717;
+  margin-left: 250px;
+}
