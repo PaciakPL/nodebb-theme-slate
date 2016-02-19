@@ -1,4 +1,4 @@
-<script src="/plugins/nodebb-theme-antergos/vendor/jquery.waypoints.min.js"></script>
+<script src="/plugins/nodebb-theme-slate/vendor/jquery.waypoints.min.js"></script>
 <!-- IF breadcrumbs.length -->
 <ol class="breadcrumb">
 	<!-- BEGIN breadcrumbs -->
