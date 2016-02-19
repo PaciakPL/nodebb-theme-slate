@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-theme-antergos",
+  "name": "nodebb-theme-slate",
   "version": "0.3.14",
   "description": "NodeBB theme based on Lavender. Created for the Antergos Forum.",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lots0logs/nodebb-theme-antergos"
+    "url": "https://github.com/lukechatton/nodebb-theme-slate"
   },
   "keywords": [
     "nodebb",
@@ -20,7 +20,7 @@
   },
   "license": "GPL",
   "bugs": {
-    "url": "https://github.com/lots0logs/nodebb-theme-antergos/issues"
+    "url": "https://github.com/lukechatton/nodebb-theme-slate/issues"
   },
   "nbbpm": {
     "compatibility": "^0.9.0"
