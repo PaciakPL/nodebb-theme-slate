@@ -115,3 +115,5 @@
 	</div>
 	<div class="container" id="content" component="content">
 	<!-- IMPORT partials/noscript/warning.tpl -->
+	</div>
+</div>
