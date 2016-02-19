@@ -7,9 +7,8 @@
 				<meta itemprop="name" content="{categories.name}">
 				<div class="et_pb_column et_pb_column_4_4">
 					<div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
-
-						<a href="{categories.link}">{categories.name}</a>
-						<a href="/categories/{categories.id}">{categories.name}</a>
+						
+						<a href="{config.relative_path}/category/{categories.slug}" itemprop="url">
 						<h2 id="{categories.name}" class="category-group">{categories.name}</h2>
 
 						<p><em>{categories.description}</em></p>
