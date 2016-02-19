@@ -174,8 +174,8 @@
 
 		function fix_breadcrumbs() {
 			if (!$('.bcrumb').length || $('.bcfixed').length) return;
-			var titles = ["About Antergos", "Technical Issues and Assistance", "Contributions & Discussion",
-					"Antergos in other languages"];
+			var titles = ["About slate", "Technical Issues and Assistance", "Contributions & Discussion",
+					"slate in other languages"];
 			$('.bcrumb').each(function () {
 				var theTitle = $(this).find('span').text();
 				if ($.inArray(theTitle, titles) > -1) {
@@ -361,15 +361,15 @@
 			var logout_in_progress = localStorage.getItem('logging_out');
 			if (typeof logout_in_progress !== 'undefined' && 'true' !== logout_in_progress) {
 				localStorage.setItem('logging_out', 'true');
-				window.location = 'https://antergos.auth0.com/v2/logout?federated&redirectTo=https://forum.antergos.com/logout';
+				window.location = 'https://slate.auth0.com/v2/logout?federated&redirectTo=https://forum.slate.com/logout';
 			} else {
 				localStorage.setItem('logging_out', 'false');
 			}
 		});
 
 		$(window).on('action:ajaxify.contentLoaded', function (ev, data) {
-			reload_js('/plugins/nodebb-theme-antergos/vendor/jquery.waypoints.min.js');
-			reload_js('/plugins/nodebb-theme-antergos/vendor/jquery.cookie.js');
+			reload_js('/plugins/nodebb-theme-slate/vendor/jquery.waypoints.min.js');
+			reload_js('/plugins/nodebb-theme-slate/vendor/jquery.cookie.js');
 			setTimeout(function () {
 				doWaypoints();
 				makeFooterToBottom();
