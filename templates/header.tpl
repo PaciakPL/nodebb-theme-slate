@@ -103,7 +103,7 @@
 <input id="currentTpl" type="hidden" template-variable="currentTpl" value="{app.template}"/>
 
 <!-- this detects when the masthead should fix -->
-<!--<div id="header-menu-detector"></div>-->
+<div id="header-menu-detector"></div>
 
 <div class="navbar navbar-inverse header ant-fixed-header" role="navigation" id="header-menu" component="navbar">
 	<div class="container">
