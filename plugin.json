@@ -29,7 +29,8 @@
 		}
 	],
 	"staticDirs": {
-		"vendor": "static/vendor"
+		"vendor": "static/vendor",
+		"images": "static/images"
 	},
 	"scripts": [
 		"static/lib/slate.js"
