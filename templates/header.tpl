@@ -102,16 +102,17 @@
 <input id="isLoggedIn" type="hidden" template-variable="loggedIn" value="{loggedIn}"/>
 <input id="currentTpl" type="hidden" template-variable="currentTpl" value="{app.template}"/>
 
+<!-- this detects when the masthead should fix -->
+<div id="header-menu-detector"></div>
+
+<div class="navbar navbar-inverse header" role="navigation" id="header-menu" component="navbar">
+	<div class="container">
+		<!-- IMPORT partials/menu.tpl -->
+	</div>
+	<div class="loading-bar"></div>
+</div>
 
 <div id="wrap" class="container">
-	<!-- this detects when the masthead should fix -->
-	<div id="header-menu-detector"></div>
 
-	<div class="navbar navbar-inverse header" role="navigation" id="header-menu" component="navbar">
-		<div class="container">
-			<!-- IMPORT partials/menu.tpl -->
-		</div>
-		<div class="loading-bar"></div>
-	</div>
 	<div class="container" id="content" component="content">
 	<!-- IMPORT partials/noscript/warning.tpl -->
