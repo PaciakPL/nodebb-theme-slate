@@ -1,4 +1,4 @@
-</div><!--END container -->
+
 <footer id="main-footer">
 
 
@@ -19,6 +19,7 @@
 		</div>
 	</div>
 </footer>
+</div><!--END container -->
 </div> <!-- .wrap.container -->
 <div class="hide">
 	<!-- IMPORT 500-embed.tpl -->
